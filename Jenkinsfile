@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/rahultechcrumb/jenkins-learning-repo-0'
+                git branch: 'main', url: 'https://github.com/rahultechcrumb/jenkins-learning-repo-0'
             }
         }
 
